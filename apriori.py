@@ -131,5 +131,5 @@ def getseq(result,seq,k):
 if __name__ == "__main__":
 
     dataSet = loadDataSet()
-    L, suppData = apriori(dataSet,minSupport=0.005)
+    L, suppData = apriori(dataSet,minSupport=0.5)
 
