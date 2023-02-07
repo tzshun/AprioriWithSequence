@@ -1,5 +1,5 @@
 # AprioriWithSequence
-the apriori algorithm is a widely used method to find the most frequent and relevant patterns in large datasets. 
+The apriori algorithm is a widely used method to find the most frequent and relevant patterns in large datasets. 
 It generates candidate item sets of length k from item sets of length k-1.
 Unfortunately, the algorithm can not distinguish the order relationship in the original sequence. 
 For example, there are two travel sequences of tourists A and B, TA={S1, S2, S3}and TB={S1, S3, S2}. 
@@ -11,7 +11,9 @@ It can identify frequent patterns while maintaining the sequence of subitems.
 In the function loadDataSet(), you should prepare your data in a two-dimensional array.
 Such as data = [['1', '5', '1'], ['2', '4', '3'], ['1', '2', '5', '1','3'], ['2', '5', '1','2', '3']]
 
-Then, the result will be generate after running the code. 
+Then, the result will be generated after running the code. 
+
+# Frequent itemsets
 Frequent 1 itemset: ['1', '5', '2', '4', '3']
 Frequent 1 itemset support: {'1': 0.75, '5': 0.75, '2': 0.75, '4': 0.25, '3': 0.75}
 Frequent 2 itemset: ['1,5', '5,1', '2,4', '2,3', '4,3', '1,2', '1,3', '5,3', '2,1', '2,5', '5,2']
